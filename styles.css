@@ -1,0 +1,54 @@
+.bg-light {
+  background-color: rgba(64, 153, 255, .1) !important;
+}
+
+.pcc-heading{
+  font-size:50px;
+  font-weight:bold;
+  
+}
+@keyframes blink {
+
+  0%,
+  100% {
+      background-color: #3F06FF;
+  }
+
+  50% {
+      background-color: #dc3545;
+  }
+}
+
+.error-msg {
+  color: red;
+}
+
+.blinking-button {
+  background-color: #5f2ee5;
+  color: white;
+  animation: blink 1s linear infinite;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 36px;
+  padding: 6px 12px;
+}
+
+.total-container {
+  background-color: #0ce8b1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+
+}
